@@ -6,17 +6,17 @@ public class GradePointAverageCalculator {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Your math grade: ");
+        System.out.print("Your math grade: ");
         math = input.nextInt();
-        System.out.println("Your physical grade: ");
+        System.out.print("Your physical grade: ");
         physical = input.nextInt();
-        System.out.println("Your history grade: ");
+        System.out.print("Your history grade: ");
         history = input.nextInt();
-        System.out.println("Your music grade: ");
+        System.out.print("Your music grade: ");
         music = input.nextInt();
-        System.out.println("Your biology grade: ");
+        System.out.print("Your biology grade: ");
         biology = input.nextInt();
-        System.out.println("Your chemistry grade: ");
+        System.out.print("Your chemistry grade: ");
         chemistry = input.nextInt();
 
         int sum = (math + physical + history + music + biology + chemistry);
