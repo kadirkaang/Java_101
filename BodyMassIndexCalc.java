@@ -12,6 +12,6 @@ public class BodyMassIndexCalc {
         weight = input.nextDouble();
 
         bodyMassIndex = weight / (size * size);
-        System.out.println("Vücüt Kitle İndeksiniz : " + bodyMassIndex);
+        System.out.println("Vücut Kitle İndeksiniz : " + bodyMassIndex);
     }
 }
