@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ScientificCalc {
+public class AdvancedCalc {
     static void plus() {
         Scanner scan = new Scanner(System.in);
         int number, result = 0, i = 1;
